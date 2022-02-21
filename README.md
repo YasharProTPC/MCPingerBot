@@ -7,6 +7,15 @@ Discord-ID : YasharProTPC#3650
 
 Used Module : Discord.py
 
+# Required
+Python 3.7+
+
+Modules : 
+
+discord.py==1.7.3, api.mcsrvstat.py==0.0.0.7, qrcode==7.3.1
+
+
+
 # Invite Bot
 Invite The Bot Using Link: 
 
