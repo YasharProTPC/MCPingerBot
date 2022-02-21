@@ -16,6 +16,7 @@ def main():
         system("cls")
         print("Connected Successfull " + client.user.name+"#"+client.user.discriminator)
         await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="& Prefix"))
+        client.remove_command('help')
 
     @client.command()
     async def status(ctx, *, argv=None):
